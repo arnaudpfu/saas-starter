@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   experimental: {
     cacheComponents: true,
     clientSegmentCache: true,
+      ppr: true,
   }
 };
 
